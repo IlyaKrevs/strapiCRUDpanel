@@ -1,38 +1,86 @@
 .App {
-  text-align: center;
+    padding: 100px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+.titleContainer {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.formContainer {
+    display: flex;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.createForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+
+    border: 1px solid black;
+    border-radius: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.formTitle {
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.special {
+    color: #fff;
+    background: #3b3939;
+}
+
+
+
+
+.listItem {
+    padding: 5px;
+
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+
+    height: 40px;
+    border: 1px solid black;
+}
+
+.btnContainer {
+    display: flex;
+    gap: 5px;
+}
+
+.listValue {
+    display: flex;
+    align-items: center;
+}
+
+.mainPageContainer {}
+
+.mainPageRow {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+
+    border: 1px solid black;
+}
+
+.rowItem {
+    padding: 10px;
+    border: 1px solid black;
+
+    display: flex;
+    align-items: center;
 }

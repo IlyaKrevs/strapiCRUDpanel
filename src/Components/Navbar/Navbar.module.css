@@ -1,0 +1,9 @@
+.navBar {}
+
+.navList {
+    display: flex;
+    gap: 50px;
+    font-size: large;
+}
+
+.navItem {}
